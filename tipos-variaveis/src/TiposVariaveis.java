@@ -16,7 +16,15 @@ public class TiposVariaveis {
 
 
        String meuNome = "Ricardo";
-       System.out.println(meuNome);
+       
+
+
+
+
+
+
+
+       
 
     }
 }
