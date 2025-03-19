@@ -7,7 +7,7 @@ public class Ternario {
             resultado =  "verdadeiro";
         else
             resultado= "falso"    ;
-            */
+            
         System.out.println(resultado);
         int resultados = a!=b ? 1 : 2;
         System.out.println(resultados);
@@ -19,7 +19,23 @@ public class Ternario {
         System.out.println (nomeUm == nomeDois);
         System.out.println(nomeUm.equals(nomeDois));
             
+        */
+        
+        // operadores Logicos
 
+        boolean condicao = true;
+        boolean condicao2 = true;
+
+        if (condicao && condicao2){
+
+            System.out.println("as duas sao verdadeiras");
+
+        }
+        if (condicao || condicao2){
+
+            System.out.println("uma das duas sao verdadeiras");
+        }
+        System.out.println("fim");
 
     
     
