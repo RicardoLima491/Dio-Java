@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -5,6 +6,7 @@ import java.util.Scanner;
 public class AboutMe {
     
     public static void main (String[] args) {
+        try{
 
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
             
@@ -42,8 +44,11 @@ public class AboutMe {
         System.out.println("Me chamo "+ nome+" "+ sobrenome);
         System.out.println("Tenho "+ idade+ " anos");
         System.out.println("Minha altura é " + altura + " cm");
-        
-        
+        scanner.close();
+        }
+        catch(InputMismatchException e ){
+            System.out.println("Campos idade e altura devem ser numeros");
+        }
         // da pra passar os parametros pelo arquivo.json
         //diretamento nos args que desejar
 
