@@ -1,9 +1,8 @@
 package candidatura;
 
-<<<<<<< HEAD
+
 import java.util.Random;
-=======
->>>>>>> 6c76f2f (hands on.)
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
