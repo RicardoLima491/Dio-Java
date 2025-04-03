@@ -25,7 +25,7 @@ public class ProcessoSeletivo {
 					tentativasRealizadas++;
 				else
 					System.out.println("Contato Realizado com Sucesso!");
-			}while (continuarTentando && tentativasRealizadas<5);
+			}while (continuarTentando && tentativasRealizadas<3);
 			if (atendeu)
 				System.out.println("Conseseguimo contato com "+ candidato + " na " + tentativasRealizadas + " tentativa");
 			else 
@@ -33,7 +33,7 @@ public class ProcessoSeletivo {
 			
 			}
 		static boolean atender() {
-			return new Random().nextInt(5)==1;
+			return new Random().nextInt(3)==1;
 		}
 	
 	
