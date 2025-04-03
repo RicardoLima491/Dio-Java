@@ -1,6 +1,6 @@
 package ControleFluxo;
-
 import java.util.Scanner;
+import ParametrosInvalidosException.ParametrosInvalidosException;
 
 public class ControleFluxo {
 
@@ -17,18 +17,18 @@ public class ControleFluxo {
 			
 		} catch (ParametrosInvalidosException e) {
 			System.out.println("Segundo parametro deve ser maior que o Primeiro");
-		}
-		
+			} 
 	}
-
 	static int contar(int parametroUm , int parametroDois) throws ParametrosInvalidosException{
-		if (parametroDois -parametroUm <=0) {
+		if (parametroDois <= parametroUm) {
 			throw new ParametrosInvalidosException();
-			
+		
 		}else {
-			int contagem = parametroDois- parametroUm
-					for (contagem)
-			
+			int contagem = (parametroDois - parametroUm);
+			int contar;
+				for (contar =1 ; contar <= contagem; contar++  )
+					System.out.println("Imprimindo o número "+ contar);
 		}
+		return parametroDois;
 	}
 }

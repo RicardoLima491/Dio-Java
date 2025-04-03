@@ -1,9 +1,9 @@
-package ControleFluxo;
+package ParametrosInvalidosException;
 
 public class ParametrosInvalidosException extends Exception {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		System.out.println("ERRO!!!!");
 
 	}
 
