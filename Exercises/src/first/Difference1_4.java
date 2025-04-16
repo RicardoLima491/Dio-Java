@@ -1,4 +1,4 @@
-package First;
+package first;
 
 import java.util.Scanner;
 
@@ -38,4 +38,3 @@ public class Difference1_4{
 	
 	
 }
-	
