@@ -1,0 +1,7 @@
+[submodule "Conta-Banco/Dio-Trilha-java-basico"]
+	path = Conta-Banco/Dio-Trilha-java-basico
+	url = https://github.com/RicardoLima491/Dio-Trilha-java-basico.git
+
+[submodule "debugging-java"]
+	path = debugging-java
+	url = https://github.com/RicardoLima491/debugging-java.git
