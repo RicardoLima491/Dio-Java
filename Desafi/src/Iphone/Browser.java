@@ -2,7 +2,7 @@ package Iphone;
 
 public interface Browser {
 	static void showPage(String url) {
-		System.out.println("Exibindo página"+ url);
+		System.out.println("Exibindo página "+ url);
 		System.out.println("");
 	}
 	static void addNewTab() {
