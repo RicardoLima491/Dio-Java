@@ -1,4 +1,4 @@
-package collections;
+package listaTarefa;
 
 public class Tarefa {
 	private String descricao;
