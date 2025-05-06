@@ -30,6 +30,9 @@ public class OrdenacaoNumeros {
 	}
 	
 	*/
+	
+	// Usando List.sort//
+	
 	public void ordenacaoAscendente() {
 		numeroList.sort((a,b) -> a.compareTo (b));
 		System.out.println( numeroList);
